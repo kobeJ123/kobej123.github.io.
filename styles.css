@@ -1,0 +1,213 @@
+body{
+    font-family: 'PT Sans Narrow', 'Oswald', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    background-color:#aca3a3;
+}
+
+/* Set the content of homepage to the middle */
+.container{
+    width:79%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    padding:0;
+    margin:0;
+}
+
+/* subscribe button */
+.btn_1{
+    height: 36px;
+    background:#000000;
+    border:none;
+    padding-left: 19px;
+    padding-right: 19px;
+    color:#ffffff;
+}
+
+/* Contact Form */
+.dark{
+    padding: 10px;
+    background: #7e7e7e;
+    border:none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#ffffff;
+    text-align: center;
+}
+
+/* Header */
+header{
+    background:#7e7e7e;
+    color:#ffffff;
+    padding-top: 25px;
+    min-height: 69px;
+    border-bottom:#ffffff 6.5px solid; 
+}
+
+/* Header (for the links) */
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* For the positioning of the links */
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+/* For the positioning of the links */
+header #links{
+    float: left;
+}
+
+/* For the positioning of the links */
+header #links h1{
+    margin:0;
+}
+
+/* For the positioning of the links */
+header nav{
+    margin-top:10px;
+    float: right;
+}
+
+/* Set color to Home link */
+header .highlight, header .current a{
+    color:#000000;
+    font-weight:bold;
+}
+
+/* Set hover state to the links */
+header a:hover{
+    color:#222289;
+    font-weight:bold;
+}
+
+/* For the background image */
+#showcase{
+    min-height: 401px;
+    background: url("../images/collection.jpg") no-repeat 0 -400px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* sets size of the header in the showcase */
+#showcase h1{
+    margin-top: 120px;
+    font-size: 54px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 18px;
+}
+
+/* sets positioning of the newsletter */
+#newsletter{
+    padding:15px;
+    color:#ffffff;
+    background:#7e7e7e; 
+}
+
+#newsletter h1{
+    float: left
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 17px;
+}
+
+#newsletter button, .contact button{
+    display:block;
+    width: 100%;
+}
+
+/* sets size of the newsletter box */
+#newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:249px;
+}
+
+/* for the Logos (consoles) */
+#gameconsoles{
+    margin-top:20px;
+
+}
+
+#gameconsoles .consoles{
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    width: 30.5%;
+    padding:10px;
+}
+
+#gameconsoles .consoles img{
+    width: 96px;
+}
+
+/* CSS Flexbox Grid for Collection */
+.gamecollection{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 42px;
+}
+
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color: #ffffff;
+    background-color:#7e7e7e;
+    text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+    header #links,
+    header nav,
+    header nav li,
+    #gameconsoles .consoles{
+        float:none;
+        text-align: center;
+        width:100%;
+    }
+
+    header{
+        padding-bottom:19px;
+    }
+
+    #showcase h1{
+        margin-top:40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
